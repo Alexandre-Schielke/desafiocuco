@@ -45,6 +45,10 @@
    <a href="https://github.com/Schielke-code/" target="_blank">clicando aqui</a>
 </p>
 
+<h2>Importanto collection  do Postman</h2>
+<p>
+	para que possamos facilitar os teste da API basta importar o  collection atravês do link "https://www.getpostman.com/collections/31da8acfc7833a7f1b84" indo em "import>link", caso tenha dificuldade segue o tutorial de como importar https://www.youtube.com/watch?v=FzPBDU7cB74
+</p>
 
 # Lumen PHP Framework
 
