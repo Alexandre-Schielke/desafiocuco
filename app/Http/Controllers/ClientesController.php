@@ -20,8 +20,10 @@ class ClientesController extends Controller
     public function index(Request $request)
     {
         try {
+
             if ($request->method() == 'POST') {
                 if (isset($request->nome) || isset($request->cpf)) {
+                    $request->cpf = $this->numero($request->cpf);
                     if (!empty($request->nome) && !empty($request->cpf)) {
                         $response = Clientes::where('nome', $request->nome)->where('cpf', $request->cpf)->get();
                     } elseif (empty($request->nome) && !empty($request->cpf)) {
