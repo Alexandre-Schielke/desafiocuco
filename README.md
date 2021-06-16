@@ -1,4 +1,5 @@
 <h2>Requisitos para rodar o projeto deste repositório(backend)</h2>
+<p>Primeiramente você pode ver esse projeto rodando e <a href="http://codezeus.com.br/"> CLIQUE AQUI PARA VER O PROJETO RODANDO</a><p>
 <p>O projeto foi feito utilizando o micro framework Lumen v. 8 do laravel, para que ele rode temos que seguir os requisitos da própia documentação <a href="https://lumen.laravel.com/docs/8.x"> CLIQE AQUI PARA IR A DOCUMENTAÇÃO</a></p>
 <p>
 	Após clonar o projeto do github (git clone https://github.com/Schielke-code/desafiocuco.git) abra a pasta do projeto e rode os seguinte comando dentro do terminal:
@@ -19,7 +20,7 @@
 <h2>Configurando o banco de dados no arquivo .env</h2>
 
 <p>
-	Crie um banco de dados Mysql no seu localhost (nome do banco 'api_cuco')
+	Crie um banco de dados Mysql no seu localhost (nome do banco 'api_cuco') apont para o banco criado e rode o arquivo "banco.sql" q se entra na raiz desse projeto.
 </p>
 
 <p>
@@ -28,7 +29,7 @@
 	DB_CONNECTION=mysql
 	DB_HOST=127.0.0.1
 	DB_PORT=3306
-	DB_DATABASE={nome-do-banco}
+	DB_DATABASE=api_cuco
 	DB_USERNAME=root
 	DB_PASSWORD={senha-se-necessario}
 
@@ -80,7 +81,4 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-minhas anotações
-https://stackoverflow.com/questions/37350404/php-lumen-call-to-a-member-function-connection-on-null
 
-npm install v-mask mascara
