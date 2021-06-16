@@ -47,7 +47,12 @@
 
 <h2>Importanto collection  do Postman</h2>
 <p>
-	para que possamos facilitar os teste da API basta importar o  collection atravês do link "https://www.getpostman.com/collections/31da8acfc7833a7f1b84" indo em "import>link", caso tenha dificuldade segue o tutorial de como importar https://www.youtube.com/watch?v=FzPBDU7cB74
+	para que possamos facilitar os teste da API basta importar o  collection através do link "https://www.getpostman.com/collections/31da8acfc7833a7f1b84" indo em "import>link", caso tenha dificuldade segue o tutorial de como importar https://www.youtube.com/watch?v=FzPBDU7cB74</p>
+
+
+<h2>Documentação collection  do Postman</h2>
+<p>
+	Documentação do collection através do link "https://www.postman.com/warped-comet-5254/workspace/desafiocuco/documentation/10762742-4530ea88-91ca-4cf6-9381-02b4d701af16".
 </p>
 
 # Lumen PHP Framework
@@ -77,3 +82,5 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 
 minhas anotações
 https://stackoverflow.com/questions/37350404/php-lumen-call-to-a-member-function-connection-on-null
+
+npm install v-mask mascara
