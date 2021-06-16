@@ -1,5 +1,5 @@
 <h2>Requisitos para rodar o projeto deste repositório(backend)</h2>
-<p>Primeiramente você pode ver esse projeto rodando e <a href="http://codezeus.com.br/"> CLIQUE AQUI PARA VER O PROJETO RODANDO</a><p>
+<p>Primeiramente você pode ver esse projeto rodando <a href="http://codezeus.com.br/"> CLIQUE AQUI PARA VER O PROJETO RODANDO</a><p>
 <p>O projeto foi feito utilizando o micro framework Lumen v. 8 do laravel, para que ele rode temos que seguir os requisitos da própia documentação <a href="https://lumen.laravel.com/docs/8.x"> CLIQE AQUI PARA IR A DOCUMENTAÇÃO</a></p>
 <p>
 	Após clonar o projeto do github (git clone https://github.com/Schielke-code/desafiocuco.git) abra a pasta do projeto e rode os seguinte comando dentro do terminal:
@@ -45,11 +45,6 @@
    Aproveitado que o seu terminal esta aberto execute o comando <code>php artisan serve</code>, veja que vai exibir o link no qual o seu backend esta rodando, deixe o rodando e vamos para configuração do front end
    <a href="https://github.com/Schielke-code/" target="_blank">clicando aqui</a>
 </p>
-
-<h2>Importanto collection  do Postman</h2>
-<p>
-	para que possamos facilitar os teste da API basta importar o  collection através do link "https://www.getpostman.com/collections/31da8acfc7833a7f1b84" indo em "import>link", caso tenha dificuldade segue o tutorial de como importar https://www.youtube.com/watch?v=FzPBDU7cB74</p>
-
 
 <h2>Documentação collection  do Postman</h2>
 <p>
