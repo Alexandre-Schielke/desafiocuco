@@ -61,9 +61,9 @@ class ClientesController extends Controller
                 $valor = trim($valor); // tirando espaço no final e no inicio da string
                 $numbString = strlen($valor);
                 if ($numbString == 0) {
-                    $erros[] = '<b>Nome</b>: Campo Vázio!';
+                    $erros[] = 'Nome campo Vázio!';
                 } elseif (!!preg_match('/^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/', str_replace(" ", "", $valor)) == false) {
-                    $erros[] = '<b>Nome</b>: Não é permitido caracter especiais e números!';
+                    $erros[] = 'Nome não é permitido caracter especiais e números!';
                 }
             } else {
                 $erros[] = 'Nome inexistente';
@@ -109,7 +109,7 @@ class ClientesController extends Controller
                 $valor = trim($valor); // tirando espaço no final e no inicio da string
                 $numbString = strlen($valor);
                 if ($numbString == 0) {
-                    $erros[] = 'Data nascimento com Campo Vázio!';
+                    $erros[] = 'Data nascimento com campo Vázio!';
                 }
             } else {
                 $erros[] = 'Data nascimento inexistente';
