@@ -40,7 +40,7 @@
 
 <h2>Documentação collection  do Postman</h2>
 <p>
-	Documentação do collection através do link "https://www.p ostman.com/warped-comet-5254/workspace/desafiocuco/documentation/10762742-4530ea88-91ca-4cf6-9381-02b4d701af16".
+	Documentação do collection através do link "https://www.postman.com/warped-comet-5254/workspace/desafiocuco/documentation/10762742-4530ea88-91ca-4cf6-9381-02b4d701af16".
 </p>
 
 <h2>Tratando o front do projeto</h2>
