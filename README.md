@@ -10,17 +10,11 @@
 </p>
 
 <p>
-	Abra novamente o seu terminal e gere uma chave com o seguinte comando:  <code>php artisan key:generate</code>
-</p>
-
-<p>
-	Agora vamos limpar o seu arquivo de configuração usando o comando:  <code>php artisan config:clear</code> </p>
-
 
 <h2>Configurando o banco de dados no arquivo .env</h2>
 
 <p>
-	Crie um banco de dados Mysql no seu localhost (nome do banco 'api_cuco') apont para o banco criado e rode o arquivo "banco.sql" q se entra na raiz desse projeto.
+	Crie um banco de dados Mysql no seu localhost (nome do banco 'api_cuco')
 </p>
 
 <p>
@@ -34,15 +28,13 @@
 	DB_PASSWORD={senha-se-necessario}
 
 </p>
+
 <p>
-	Agora vamos limpar o seu arquivo de configuração usando o comando: <code>php artisan config:clear</code>
-</p>
-<p>
-	com o banco de dados criado e o .env atualizado abra o seu terminal setado para a pasta do seu projeto e execute o comando: <code>php artisan migrate</code>, observe que as suas tabelas vão ser criadas utilizando a função migrate do laravel
+	com o banco de dados criado e o .env atualizado abra o seu terminal setado para a pasta do seu projeto e execute o comando: <code>php artisan migrate</code>, observe que as suas tabelas vão ser criadas utilizando a função migrate do laravel, mas caso queira rodar um sql para criar as tabelas ja com registros, basta rodar o arquivo 'banco.sql' setado para o banco que acabamos de criar. O arquivo esta na raiz desse projeto.
 </p>
 
 <p>
-   Aproveitado que o seu terminal esta aberto execute o comando <code>php artisan serve</code>, veja que vai exibir o link no qual o seu backend esta rodando, deixe o rodando e vamos para configuração do front end
+   Aproveitado que o seu terminal esta aberto execute o comando <code>php -S localhost:8000 -t public</code>, veja que vai exibir o link no qual o seu backend esta rodando, deixe o rodando e vamos para configuração do front end
    <a href="https://github.com/Schielke-code/" target="_blank">clicando aqui</a>
 </p>
 
