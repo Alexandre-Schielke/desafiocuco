@@ -45,7 +45,7 @@
 
 <h2>Tratando o front do projeto</h2>
 <p>
-	O front foi feito em Vue.js, todos os passos da segunda estava fica nesse repositório  <a href="https://github.com/Schielke-code/desafioCucoFrontVue"> FRONT VUE, CONSUMINDO API</a><p>
+	O front foi feito em Vue.js, todos os passos da segunda se encontraca nesse repositório  <a href="https://github.com/Schielke-code/desafioCucoFrontVue"> FRONT VUE, CONSUMINDO API</a><p>
 </p>
 
 # Lumen PHP Framework
